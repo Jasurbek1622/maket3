@@ -1,0 +1,439 @@
+    *{
+	margin:0;
+	padding:0;
+}
+
+@font-face{
+	font-family:"georgia";
+	src:url("georgia.ttf")format('truetype');
+}
+
+.block{
+	width:1000px;
+	height:700px;
+	border:2px solid white;
+	margin:0 auto;
+}
+
+.quanto{
+	width:117px;
+	height:30px;
+	/*border:2px solid white*/
+	color:white;
+	background-color:#BF3A16;
+    text-align:center;
+    font-size:30px;
+    padding:15px;
+	position:absolute;
+	left:140px;
+    top:49px;}
+
+
+
+  .Home{ 
+     border:1px solid white;
+     position:absolute;
+     left:140px;
+     top:110px;
+     width:145px;
+     height:50px;
+     background-color:#D4C69C;
+     color:white;}
+
+     .Home .home1{
+     	position:absolute;
+     	right:50px;
+     	top:15px;
+     	text-decoration-line:none;
+     	color:white;
+         }
+
+         .About{ 
+     border:1px solid white;
+     position:absolute;
+     left:288px;
+     top:110px;
+     width:145px;
+     height:50px;
+     background-color:#EBE9D8;
+     color:white;}
+
+     .About .about1{
+        position:absolute;
+        right:50px;
+        top:15px;
+        text-decoration-line:none;
+        color:black;
+         }
+
+         .Services{ 
+     border:1px solid ;
+     position:absolute;
+     left:436px;
+     top:110px;
+     width:145px;
+     height:50px;
+     background-color:#EBE9D8;
+     color:white;}
+
+     .Services .services1{
+        position:absolute;
+        right:50px;
+        top:15px;
+        text-decoration-line:none;
+        color:black;
+         }
+
+         .Solutions{ 
+     border:1px solid white;
+     position:absolute;
+     left:584px;
+     top:110px;
+     width:145px;
+     height:50px;
+     background-color:#EBE9D8;
+     color:white;}
+
+     .Solutions .solutions1{
+        position:absolute;
+        right:50px;
+        top:15px;
+        text-decoration-line:none;
+        color:black;
+         }
+
+         .Contacts{ 
+     border:1px solid white;
+     position:absolute;
+     left:732px;
+     top:110px;
+     width:145px;
+     height:50px;
+     background-color:#EBE9D8;
+     color:white;}
+
+     .Contacts .contacts1{
+        position:absolute;
+        right:50px;
+        top:15px;
+        text-decoration-line:none;
+        color:black;
+         }
+
+         .left{
+            position:absolute;
+            top:110px;
+            left:-9px;
+            float:left;
+            border:1px solid white;
+             width:147px;
+             height:50px;
+             background-color:#EBE9D8;
+         }
+
+         .right{
+            position:absolute;
+            top:110px;
+            right:-2px;
+            float:left;
+            border:1px solid white;
+             width:198px;
+             height:50px;
+             background-color:#EBE9D8;
+         }
+
+
+     .we{
+     	font-family:;
+     	position:absolute;
+     	right:340px;
+     	top:50px;
+     }
+
+     .the{
+       color:#792913;
+        position:absolute;
+        right:200px;
+        top:50px;
+     }
+
+     .discover{
+        position:absolute;
+     	top:210px;
+     	left:180px;
+     	font-size:20px;
+        color:#B68E80;
+     }
+
+     .rasm1{
+     	position:absolute;
+     	left:500px;
+     	top:200px;    
+     	width:700px;
+     }
+
+     .businnes{
+     	position:absolute;
+     	top:230px;
+     	left:180px;
+     	font-size:70px;
+        color:#000000;
+     }
+
+     .secrets{
+     	top:280px;
+     	font-size:70px;
+     	left:240px;
+        position:absolute; 
+        color:#BF3A16;
+     }
+
+
+
+    /* 2-border*/
+
+
+
+     .border{
+        width:1100px;
+        height:330px;
+        border:1px solid #EBE9D8;
+        background-color:#EBE9D8;
+        position:absolute;
+        top: 450px;
+        left:0px;
+     }
+
+     .customer{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:130px;
+     }
+
+     .success{
+        font-size:15px;
+        color:#792913;
+        position:absolute;
+        top:63px;
+        left:130px;
+     }
+
+     .lorem{
+        font-size:10px;
+        color:#5B594C;
+        position:absolute;
+        top:90px;
+        left:130px;
+}
+    
+     .rasm2{
+        position:absolute;
+        top:185px;
+        left:130px;
+     }
+
+     .rasmtext{
+        position:absolute;
+        top:195px;
+        left:225px;
+     }
+
+     .rasmtext a{
+        color:#BF3A16;
+     }
+
+     .why{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:400px;
+     }
+
+     .our{
+        font-size:15px;
+        color:#792913;
+        position:absolute;
+        top:63px;
+        left:400px;
+     }
+
+     .lorem2{
+        font-size:10px;
+        color:#5B594C;
+        position:absolute;
+        top:90px;
+        left:400px;
+     }
+
+     .lorem2text{
+        font-size:10px;
+        color:#5B594C;
+        position:absolute;
+        top:137px;
+        left:400px;
+     }
+
+     .readmore{
+        font-size:12px;
+        position:absolute;
+        top:225px;
+        left:400px;
+     }
+     .readmore a{
+        color:#BF3A16;
+     }
+
+     .new{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:650px;
+     }
+
+     .whats{
+        font-size:15px;
+        color:#792913;
+        position:absolute;
+        top:63px;
+        left:650px;
+     }
+
+     .lorem3{
+        font-size:10px;
+        position:absolute;
+        top:100px;
+        left:650px;
+     }
+
+     .lorem3 a{
+        color:#BF3A16;
+     }
+
+     .login{
+        position:absolute;
+        top:200px;
+        left:650px;
+        border:1px solid #BF3A16;
+        background-color: #BF3A16;
+        color:white;
+        font-size:15px;
+        padding:10px;
+     }
+
+     .ok{
+        display:inline;
+        border:1px solid black;
+        background-color:#F7931D;
+        color: white;
+     }
+
+     .login form a{
+        color: #E8E4DC;
+     }
+
+
+     /*3-border*/
+
+
+    .border3{
+        width:1100px;
+        height:270px;
+        border:2px solid #DAD5BB;
+        background-color:#DAD5BB;
+        position:absolute;
+        top:782px;
+        left:0;
+    }
+
+    .news{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:130px;
+    }
+
+    .popular{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:400px;
+    }
+
+    .press{
+        font-size: 25px;
+        position:absolute;
+        top:40px;
+        left:650px;
+    }
+
+
+    .consumer a{
+        font-size: 13px;
+        position:absolute;
+        top:90px;
+        left:130px;
+        color: #BF3A16;
+    }
+
+    .analy a{
+     font-size:13px;
+     position:absolute;
+     top:90px;
+     left:400px;
+     color:#BF3A16;
+    }
+
+    .us a{
+    font-size:13px;
+     position:absolute;
+     top:90px;
+     left:650px;
+     color:#BF3A16;
+    }
+
+    .more1 a{
+        position:absolute;
+        top:220px;
+        left:120px;
+        color:#5B594C;
+    }
+
+    .more2 a{
+        position:absolute;
+        top:220px;
+        left:390px;
+        color:#5B594C;
+    }
+
+    .more3 a{
+        position:absolute;
+        top:220px;
+        left:640px;
+        color:#5B594C;
+    }
+
+    .end{
+       position:absolute;
+       top:320px;
+       left:100px;
+    }
+
+    .end2{
+       position:absolute;
+       top:320px;
+       left:210px;
+       color: #BF3A16;
+    }
+
+    .login .newsletter .value{
+        background-color:#F7931D;
+        border-color:#F7931D;
+        color:white;
+        text-align:center;
+        width:40px;
+        height:20px;
+    }
+
+
+
